@@ -32,7 +32,7 @@
             <a class="nav__link">Adultos</a>
           </li>
           <li>
-            <a class="nav__link">Pets</a>
+            <img onclick="toggleMode()" class="color-button" src="./images/sun.png" alt="theme-icon">
           </li>
         </ul>
       </nav>
@@ -57,51 +57,6 @@
           placeat ipsum nemo ea.</p>
       </section>
 
-      <section class="events">
-        <ul class="table">
-          <li class="table__item">
-            <img src="./images/kids-image.avif" alt="kids-image" class="table__image">
-            <div class="table__content">
-              <h2 class="table__title">Infantil</h2>
-              <h3 class="table__subtitle">De 4 a 14 anos</h3>
-              <p class="table__price">Valor</p>
-              <div class="table__details">
-                <p class="table__value">R$ 1.500</p>
-                <p class="table__amount">Até 50 pessoas</p>
-              </div>
-              <button class="button">Contratar</button>
-            </div>
-          </li>
-
-          <li class="table__item">
-            <img src="./images/teens-image.avif" alt="kids-image" class="table__image">
-            <div class="table__content">
-              <h2 class="table__title">Adolescente</h2>
-              <h3 class="table__subtitle">De 14 a 17 anos</h3>
-              <p class="table__price">Valor</p>
-              <div class="table__details">
-                <p class="table__value">R$ 5.500</p>
-                <p class="table__amount">Até 50 pessoas</p>
-              </div>
-              <button class="button">Contratar</button>
-            </div>
-          </li>
-
-          <li class="table__item">
-            <img src="./images/adults-image.avif" alt="kids-image" class="table__image">
-            <div class="table__content">
-              <h2 class="table__title">Adultos</h2>
-              <h3 class="table__subtitle">Acima de 18 anos</h3>
-              <p class="table__price">Valor</p>
-              <div class="table__details">
-                <p class="table__value">R$ 12.500</p>
-                <p class="table__amount">Até 50 pessoas</p>
-              </div>
-              <button class="button">Contratar</button>
-            </div>
-          </li>
-        </ul>
-      </section>
 
       <section class="gallery">
         <img src="./images/gallery/01.avif" alt="01" class="gallery__image">
@@ -210,12 +165,59 @@
         </div>
       </section>
 
+
+      <section class="events">
+        <ul class="table">
+          <li class="table__item">
+            <img src="./images/kids-image.avif" alt="kids-image" class="table__image">
+            <div class="table__content">
+              <h2 class="table__title">Infantil</h2>
+              <h3 class="table__subtitle">De 4 a 14 anos</h3>
+              <p class="table__price">Valor</p>
+              <div class="table__details">
+                <p class="table__value">R$ 1.500</p>
+                <p class="table__amount">Até 50 pessoas</p>
+              </div>
+              <button class="button">Contratar</button>
+            </div>
+          </li>
+
+          <li class="table__item">
+            <img src="./images/teens-image.avif" alt="kids-image" class="table__image">
+            <div class="table__content">
+              <h2 class="table__title">Adolescente</h2>
+              <h3 class="table__subtitle">De 14 a 17 anos</h3>
+              <p class="table__price">Valor</p>
+              <div class="table__details">
+                <p class="table__value">R$ 5.500</p>
+                <p class="table__amount">Até 50 pessoas</p>
+              </div>
+              <button class="button">Contratar</button>
+            </div>
+          </li>
+
+          <li class="table__item">
+            <img src="./images/adults-image.avif" alt="kids-image" class="table__image">
+            <div class="table__content">
+              <h2 class="table__title">Adultos</h2>
+              <h3 class="table__subtitle">Acima de 18 anos</h3>
+              <p class="table__price">Valor</p>
+              <div class="table__details">
+                <p class="table__value">R$ 12.500</p>
+                <p class="table__amount">Até 50 pessoas</p>
+              </div>
+              <button class="button">Contratar</button>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer">
       <p class="footer__copyright">© 2024. Juliano Ventola</p>
     </footer>
   </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>

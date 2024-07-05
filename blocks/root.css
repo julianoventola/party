@@ -1,0 +1,22 @@
+:root {
+  --pink: rgba(242, 105, 179, 1);
+  --purple: rgba(170, 135, 212, 1);
+  --hover-link: #f269b3;
+  --border: white;
+
+  --text-color: white;
+  --bg-color: #272935;
+  --highlight-color-icon: rgba(170, 135, 212, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--bg-color);
+}

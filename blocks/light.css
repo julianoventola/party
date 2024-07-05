@@ -1,0 +1,5 @@
+.light {
+  --text-color: black;
+  --bg-color: #eee;
+  --bg-light-dark-theme: url('../images/moon.png');
+}
