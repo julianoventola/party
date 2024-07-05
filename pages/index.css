@@ -259,6 +259,41 @@ body {
     font-size: 45px;
     line-height: 49px;
   }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+
+  .reviews {
+    margin: 100px 20px 0;
+    row-gap: 44px;
+  }
+
+  .review__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .review__image {
+    width: 100%;
+  }
+
+  .review__person {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .review__text {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .review__button {
+    max-width: 100%;
+  }
+
 }
 
 @media screen and (max-width:320px) {
@@ -312,6 +347,44 @@ body {
   .table__image {
     width: 100%;
     border-radius: 32px 32px 0 0;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 300px);
+  }
+
+  .reviews {
+    margin: 100px 0 0;
+  }
+
+  .review {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      " title"
+      " person"
+      " image"
+      " text"
+      " button";
+  }
+
+  .review__title {
+    margin-left: 10px;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .review__person {
+    margin-left: 10px;
+  }
+
+  .review__text {
+    margin: 0 10px;
+  }
+
+  .review__button {
+    max-width: 90%;
   }
 
   .footer {
