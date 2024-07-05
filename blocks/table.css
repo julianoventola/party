@@ -10,7 +10,6 @@
 
 .table__item:hover {
   width: 360px;
-  transform: scale(1.1, 1.1);
 }
 
 .table__image {
@@ -63,22 +62,6 @@
   font-size: 16px;
 }
 
-.table__button {
-  width: 100%;
-  height: 54px;
-  background: linear-gradient(180deg, rgba(242, 105, 179, 1) 0%, rgba(170, 135, 212, 1) 100%);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table__button:hover {
-  background: linear-gradient(180deg, rgba(170, 135, 212, 1) 0%, rgba(242, 105, 179, 1) 100%);
-  font-size: 26px;
-  border: 1px solid white;
-}
 
 @media screen and (max-width:800px) {
   .table {
@@ -102,7 +85,6 @@
 
   .table__item:hover {
     width: 100%;
-    transform: scale(1, 1);
   }
 
   .table__image {
